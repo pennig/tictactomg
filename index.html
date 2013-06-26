@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TicTacTOMG</title>
+
+		<link rel="stylesheet" href="/r/css.css">
+	</head>
+
+	<body>
+		<canvas id="board"></canvas>
+	</body>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script src="/r/js.js"></script>
+	<script>
+	var socket = io.connect('http://localhost:8080');
+
+	// on connection to server, ask for user's name with an anonymous callback
+	socket.on('connect', function(){
+		// setup
+	});
+	
+	// on load of page
+	$(function(){
+		// init
+	});
+	</script>
+</html>
